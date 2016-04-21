@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool has_sete(int n){
+bool has_seven(int n){
     int aux;
     while(n){
         aux = n % 10;
@@ -25,7 +25,7 @@ int main() {
 					//printf("I : %d %d\n", i, c);
 					if(c%7==0)
 						k--;
-					else if(has_sete(c))
+					else if(has_seven(c))
 						k--;
 				}
 				if(k==0)
@@ -41,7 +41,7 @@ int main() {
 					//printf("i : %d %d\n", i, c);
 					if(c%7==0)
 						k--;
-					else if(has_sete(c))
+					else if(has_seven(c))
 						k--;
 				}
 				if(k==0)
